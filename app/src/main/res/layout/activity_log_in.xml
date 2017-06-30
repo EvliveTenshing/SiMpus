@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="pemula.simpus.LogInActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Email"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Password"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="223dp"
+        android:layout_height="50dp"
+        android:text="LOGIN"
+        android:background="@color/colorPrimary"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="241dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="0dp"
+        android:text="No account yet? Create new one"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        tools:layout_editor_absoluteX="72dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="218dp"
+        android:layout_height="346dp"
+        app:srcCompat="@drawable/logo2"
+        tools:layout_editor_absoluteY="-41dp"
+        tools:layout_editor_absoluteX="72dp" />
+
+</android.support.constraint.ConstraintLayout>

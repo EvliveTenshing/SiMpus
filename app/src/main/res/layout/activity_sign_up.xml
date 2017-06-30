@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pemula.simpus.SignUpActivity">
+
+    <EditText
+        android:id="@+id/signUpName"
+        android:layout_width="323dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="6dp" />
+
+    <EditText
+        android:id="@+id/signUpEmail"
+        android:layout_width="325dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Email"
+        tools:layout_editor_absoluteY="72dp"
+        tools:layout_editor_absoluteX="6dp" />
+
+    <EditText
+        android:id="@+id/signUpPass"
+        android:layout_width="323dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Password"
+        tools:layout_editor_absoluteY="122dp"
+        tools:layout_editor_absoluteX="6dp" />
+
+    <RadioButton
+        android:id="@+id/signUpLaki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laki-laki"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <RadioButton
+        android:id="@+id/signUpPerempuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perempuan"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <EditText
+        android:id="@+id/signUpAsal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Asal"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Salah Satu"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+</android.support.constraint.ConstraintLayout>
