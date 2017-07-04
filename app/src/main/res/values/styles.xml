@@ -6,17 +6,6 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="blue">#FF33B5E5</item>
-        <item name="purple">#FFAA66CC</item>
-        <item name="green">#FF99CC00</item>
-        <item name="orange">#FFFFBB33</item>
-        <item name="red">#FFFF4444</item>
-        <item name="darkblue">#FF0099CC</item>
-        <item name="darkpurple">#FF9933CC</item>
-        <item name="darkgreen">#FF669900</item>
-        <item name="darkorange">#FFFF8800</item>
-        <item name="darkred">#FFCC0000</item>
-        <item name="white">@color/white</item>
     </style>
 
 </resources>
